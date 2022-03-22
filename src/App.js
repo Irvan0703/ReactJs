@@ -1,11 +1,12 @@
 
 import './App.css';
-import TugasKomponen from './Materi/TugasKomponen';
+import TugasStyling from './Materi/TugasStyling';
+
 
 function App() {
   return (
     <div className="App">
-      <TugasKomponen />
+      <TugasStyling />
     </div>
   );
 }

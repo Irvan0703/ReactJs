@@ -1,0 +1,25 @@
+#jumbotron{
+    background-image: url('http://localhost:3000/pic.jpg');
+    background-size: cover;
+    color: gold;
+}
+.btn-warning{
+	background-color: gold;
+	border-radius: 15px;
+	box-shadow: 0px 2px 2px white;
+	color: darkblue;
+}
+.btn-warning:hover{
+	background-color: darkblue;
+	color: gold;
+}
+.btn-dark{
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px black;
+}
+
+.btn-dark:hover{
+    background-color: white;
+    color: black;
+}
+
