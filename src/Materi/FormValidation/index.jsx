@@ -34,7 +34,7 @@ export default class FormValidation extends React.Component{
                         <TaskForm receiveValue={this.handleValue}/>
                     </Card.Body>
                     {
-                        this.state.errors.length  && <ul style={{color: 'red'}}>
+                        this.state.errors  && <ul style={{color: 'red'}}>
                         {
                             this.state.errors.map((message, i) => <li key={i}>{message}</li>)
                         }
