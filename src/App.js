@@ -1,12 +1,13 @@
 
 import './App.css';
-import TugasStyling from './Materi/TugasStyling';
+import FormValidation from './Materi/FormValidation';
+
 
 
 function App() {
   return (
-    <div className="App">
-      <TugasStyling />
+    <div className="App" >
+      <FormValidation />
     </div>
   );
 }
