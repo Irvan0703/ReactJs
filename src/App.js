@@ -1,13 +1,13 @@
 
 import './App.css';
-import FormValidation from './Materi/FormValidation';
+import TaskRecycle from './Materi/TaskRecycle';
 
 
 
 function App() {
   return (
     <div className="App" >
-      <FormValidation />
+      <TaskRecycle />
     </div>
   );
 }
