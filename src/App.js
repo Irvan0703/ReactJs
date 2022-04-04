@@ -1,13 +1,13 @@
 
 import './App.css';
-import TaskRecycle from './Materi/TaskRecycle';
+import TaskHook from './Materi/TaskHook';
 
 
 
 function App() {
   return (
     <div className="App" >
-      <TaskRecycle />
+      <TaskHook/>
     </div>
   );
 }
