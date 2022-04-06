@@ -11,7 +11,7 @@ const TaskHook = () => {
     });
     
     return (
-        <div>
+        <div className='main'>
             <div > 
                 <Navbar bg="dark" variant='dark' expand="lg">
                     <Container>

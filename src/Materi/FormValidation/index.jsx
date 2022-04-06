@@ -27,6 +27,7 @@ export default class FormValidation extends React.Component{
     render(){
         
         return (
+            <div className="main">
             <div className="d-flex content-center">
                 <Card border="primary" style={{ width: '90%' }}>
                     <Card.Header>Registration Form</Card.Header>
@@ -45,7 +46,7 @@ export default class FormValidation extends React.Component{
                     <br/>
                     <Validation controlValue={this.state} handleErrors={this.showErrors}/>                   
                 </Card>   
-                         
+                </div>       
             </div>
         )
     }

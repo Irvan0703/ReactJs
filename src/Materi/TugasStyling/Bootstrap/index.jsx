@@ -8,7 +8,7 @@ export default class Bootstrap extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className="main">
                 <div>
                     <Navbar bg="dark" variant="dark" expand="lg">
                         <Container>
