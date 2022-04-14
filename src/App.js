@@ -1,11 +1,23 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css';
-import Redux from "./Materi/Redux";
+import TaskHook from './Materi/TaskHook';
+import Routing from './Materi/Routing';
+import TugasStyling from "./Materi/TugasStyling";
+import FormValidation from "./Materi/FormValidation";
+
 
 
 function App() {
   return (
     <div className="App" >
-      <Redux/>
+      <Router>
+      <Routing/>
+        <Routes >
+          <Route exact path="/" element={<TugasStyling />}/>
+          <Route exact path="/News" element={<TaskHook />}/>
+          <Route path="/Register" element={<FormValidation />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
